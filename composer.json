@@ -1,0 +1,28 @@
+{
+  "name": "evolutioncms-services/document-manager",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Pashkevich",
+      "email": "sertious2008.wortk3@gmail.com"
+    }
+  ],
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "EvolutionCMS\\Services\\": "src/Services",
+      "EvolutionCMS\\Providers\\": "src/Providers",
+      "EvolutionCMS\\Facades": "src/Facades"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "EvolutionCMS\\Providers\\UserManagerServiceProvider"
+      ]
+
+    }
+  }
+}
