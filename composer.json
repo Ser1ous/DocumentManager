@@ -14,7 +14,7 @@
     "psr-4": {
       "EvolutionCMS\\Services\\": "src/Services",
       "EvolutionCMS\\Providers\\": "src/Providers",
-      "EvolutionCMS\\Facades": "src/Facades"
+      "EvolutionCMS\\Facades\\": "src/Facades"
     }
   },
   "extra": {
